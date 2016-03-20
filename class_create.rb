@@ -4,9 +4,9 @@ def array_build
   array = [] 
   i = 0
   until i == 5
-    array << ".hp#{i}"
-    array << ".hs1#{i}"
-    array << ".hs2#{i}"
+    array << "hp#{i}"
+    array << "hs1#{i}"
+    array << "hs2#{i}"
     i += 1
   end
   array.sort!
