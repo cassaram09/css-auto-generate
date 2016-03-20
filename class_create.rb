@@ -16,7 +16,7 @@ def class_create
   array = array_build
   output = File.new( "class_create.txt","w+" )
   array.each do |x| 
-    output << "<div class=\"#{x}\"></div>\n"
+    output << "<div class=\"color-box #{x}\"></div>\n"
   end
   output.close
 end
